@@ -1,0 +1,151 @@
+
+
+.pd-top .pd-top-list .pd-top-action a {
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+    font-weight: 300;
+}
+.pd-top .pd-top-list .text {
+    color: var(--color-primary);
+    font-weight: 700;
+}
+
+.cart-head .table {
+    background-color: white;
+    margin-bottom: 30px;
+}
+.cart-head .table th {
+    text-align: center;
+    color: var(--color-primary);
+    font-size: 16px;
+    font-weight: bold;
+}
+.cart-head .table td {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 50px 0;
+}
+
+
+
+.cart-head .table td.image{
+    padding:0
+}
+.cart-head .table td.image a {
+    color: inherit;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+.cart-head .table td.image a img {
+    width: 130px;
+    display: inline-table;
+}
+.cart-head .table td.quantity span {
+    width: 25px;
+    height: 32px;
+    border: 1px solid var(--color-primary);
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 3px;
+}
+.cart-head .table td.quantity span:hover {
+    background-color: var(--color-secondary);
+    color: white;
+    border: none;
+}
+.cart-head .table td.quantity input {
+    color: #000;
+    font-size: 14px;
+    font-weight: normal;
+    border: 1px solid var(--color-primary);
+    width: 80px;
+    border-radius: 3px;
+    text-align: center;
+
+}
+.cart-head .table td.delete {
+    border-top: medium none;
+    padding: 20px 10px;
+    vertical-align: middle;
+    font-size: 16px;
+   
+}
+.cart-head .table td.delete a i {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+.cart-head .button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(90, 88, 88);
+    margin-bottom: 30px;
+}
+.cart-head .button .bt-left input {
+    height: 52px;
+    border: 1px solid rgb(211, 208, 208);
+    padding: 0 15px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+.cart-head .button .btn {
+    background-color: var(--color-secondary);
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    border-radius: 50px;
+    display: inline-block;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 13px 53px;
+    border: none;
+}
+.cart-head .button .btn:hover {
+    background-color: var(--color-primary);
+}
+.cart-head .card-total {
+    margin-bottom: 30px;
+}
+.cart-head .card-total ul {
+    border: 1px solid rgb(211, 208, 208);
+}
+.cart-head .card-total ul li {
+    list-style: none;
+    font-size: 15px;
+    color: #6f7172;
+    padding: 10px 30px;
+    border-bottom: 1px solid rgb(211, 208, 208);
+    font-weight: 400;
+}
+.cart-head .card-total ul li:last-child{
+    border-bottom: none;
+}
+.cart-head .card-total ul li span {
+    float: right;
+}
+.cart-head .card-total a {
+    background-color: var(--color-secondary);
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    border-radius: 50px;
+    display: inline-block;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 13px 53px;
+    border: none;
+    text-decoration: none;
+}
+.cart-head .card-total a:hover {
+    background-color: var(--color-primary);
+}
+
+
+
+

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="cart">
+                <div class="cart-item">
+                    <div class="item_img">
+                        <img src="product-1.png" alt="" />
+                    </div>
+                    <div class="item_content">
+                        <div class="content_top">
+                            <div class="info">
+                                <h3 class="title">Gấu bông mặt ngáo đáng yêu cute nhất hành tinh vũ trụ</h3>
+                                <p class="desc">Lựa chọn: <span>1m2</span></p>
+                            </div>
+                            <div class="delete">
+                                <a class="typeClick" type="delete" href="javascript:;"><i class="fa-solid fa-trash-can"></i></a>
+                            </div>
+                        </div>
+                        <div class="content_bot">
+                            <div class="left">
+                                <span>Số lượng: </span>
+                                <div class="quantity">
+                                    <span class="typeClick" type="minus"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                                    <input type="text" name="quantity" value="1" disabled />
+                                    <span class="typeClick" type="plus"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                </div>
+                            </div>
+                            <div class="price"><span>280.000</span> VND</div>
+                            <div class="pricecore" style="display: none">280000</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <div class="item_img">
+                        <img src="product-2.png" alt="" />
+                    </div>
+                    <div class="item_content">
+                        <div class="content_top">
+                            <div class="info">
+                                <h3 class="title">Gấu bông mặt ngáo đáng yêu cute nhất hành tinh vũ trụ</h3>
+                                <p class="desc">Lựa chọn: <span>1m2</span></p>
+                            </div>
+                            <div class="delete">
+                                <a class="typeClick" type="delete" href="javascript:;"><i class="fa-solid fa-trash-can"></i></a>
+                            </div>
+                        </div>
+                        <div class="content_bot">
+                            <div class="left">
+                                <span>Số lượng: </span>
+                                <div class="quantity">
+                                    <span class="typeClick" type="minus"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                                    <input type="text" name="quantity" value="1" disabled />
+                                    <span class="typeClick" type="plus"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                </div>
+                            </div>
+                            <div class="price"><span>380.000</span> VND</div>
+                            <div class="pricecore" style="display: none">380000</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="s_total">
+                    <h2 class="title">Tóm tắt đơn hàng</h2>
+                    <div class="info">
+                        <div>Tạm tính</div>
+                        <div class="sum"><span>660.000</span> VND</div>
+                    </div>
+                    <div class="info">
+                        <div>Phí giao hàng</div>
+                        <div>Tính khi chọn hình thức giao hàng</div>
+                    </div>
+                    <div class="info">
+                        <div>Tổng cộng</div>
+                        <div class="total"><span>660.000</span> VND</div>
+                    </div>
+                </div>
+                <a href="dat-hang.php" class="s_button"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Đặt hàng</a>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="style.js"></script>
+    </body>
+</html>

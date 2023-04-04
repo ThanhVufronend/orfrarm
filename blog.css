@@ -1,0 +1,238 @@
+.slide .card {
+    text-align: center;
+    border-radius: 8px;
+    margin: 100px 16px 30px 16px;
+    
+}
+.slide .card .bl-img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.slide .card .bl-img img {
+    border-radius: 8px;
+}
+.slide .card .bl-text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.slide .card .bl-text .texttop span a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.slide .card .bl-text h4 a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+.slide .card .bl-text a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.blog .sidebar {
+    border-bottom: 1px dotted #acabab77;
+}
+.blog .sidebar .sidebar-search {
+    padding: 12px;
+    background-color: white;
+    position: relative;
+    border-radius: 8px;
+    color: #acabab77;
+    margin-bottom: 30px;
+}
+.blog .sidebar .sidebar-search input {
+    border: none;
+    outline: none;
+    padding-left: 24px;
+    color: #acabab77;
+}
+.blog .sidebar .sidebar-search button {
+    border: none;
+    background-color: white;
+    position: absolute;
+    right: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--color-secondary);
+}
+.blog .sidebar .sidebar-search button:hover {
+    color: var(--color-primary);
+}
+.blog .sidebar__widget {
+    border-bottom: 1px dotted #acabab77;
+}
+.blog .sidebar__widget .title {
+    padding: 24px;
+    background-color: white;
+    border-radius: 8px;
+    margin: 30px 0;
+}
+.blog .sidebar__widget .title h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: var(--color-primary);
+    text-transform: uppercase;
+}
+.blog .sidebar__widget .title .content ul li {
+    list-style: none;
+    font-size: 16px;
+}
+.blog .sidebar__widget .title .content ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color:  rgb(154, 152, 152);
+}
+.blog .sidebar__widget .title .content ul li span {
+    font-size: 16px;
+    color:  rgb(154, 152, 152);
+}
+.blog .sidebar__widget .title .content ul li:hover a {
+    color: var(--color-secondary);
+}
+.blog .sidebar__widget .title .content ul li:hover span {
+    color: var(--color-secondary);
+}
+
+.blog .sidebar-recent {
+    border-bottom: 1px dotted #acabab77;
+}
+.blog .sidebar-recent .recent-posts {
+    margin: 30px 0;
+    background-color: white;
+    border-radius: 8px;
+}
+.blog .sidebar-recent .recent-posts h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: var(--color-primary);
+    text-transform: uppercase;
+    padding: 24px 0 0 24px;
+}
+
+.blog .sidebar-recent .recent-posts .posts .card {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 24px;
+    border: none;
+}
+.blog .sidebar-recent .recent-posts .posts .card .thumb img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.blog .sidebar-recent .recent-posts .posts .card .content {
+    padding: 12px;
+}
+.blog .sidebar-recent .recent-posts .posts .card .content h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.03em;
+    color: var(--color-primary);
+    margin-bottom: 4px;
+}
+.blog .sidebar-recent .recent-posts .posts .card .content h3 a {
+    color: inherit;
+    outline: none;
+    border: none;
+    background: transparent;
+    text-decoration: none;
+}
+.blog .sidebar-recent .recent-posts .posts .card .content span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.tags .tags-card {
+    margin: 30px 0;
+    background-color: white;
+    border-radius: 8px;
+    padding: 24px;
+}
+.tags .tags-card h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.03em;
+    color: var(--color-primary);
+    margin-bottom: 4px;
+    text-transform: uppercase;
+}
+.tags .tags-card .tags-content {
+    margin: 30px 0;
+    background-color: white;
+    border-radius: 8px;
+}
+.tags .tags-card .tags-content a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--color-primary);
+    background: rgb(225, 223, 223);
+    padding: 8px 20px;
+    display: inline-block;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+.tags .tags-card .tags-content a:hover {
+    background-color: var(--color-secondary);
+    color: white;
+}
+
+
+.tab-content .card {
+    background-color: transparent;
+}
+.tab-content .card .thumb a img {
+    border-radius: 8px;
+    margin-bottom: 6px;
+}
+.tab-content .card .content {
+    padding: 20px 28px 20px 0px;
+}
+.tab-content .card .content .link {
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+} 
+.tab-content .card .content .link .link-style a {
+    text-decoration: none;
+    color: var(--color-secondary);
+    padding: 6px 6px 6px 0;
+    
+}
+.tab-content .card .content .link .add a {
+    text-decoration: none;
+    color: var(--color-primary);
+    padding: 6px;
+}
+.tab-content .card .content .link .date a {
+    text-decoration: none;
+    color: var(--color-primary);
+    padding: 6px;
+}
+.tab-content .card .content h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--color-primary);
+}
+    
+

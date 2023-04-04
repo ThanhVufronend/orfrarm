@@ -1,0 +1,448 @@
+
+
+
+.digital {
+     padding: 50px;
+     margin: 30px 0;
+     align-items: center;
+}
+.digital .digitalbanner {
+     font-size: 60px;
+     position: relative;
+     padding: 50px 0;
+     margin-right: 24px;
+}
+.digital .leftimgone {
+     font-size: 16px;
+     position: absolute;
+     right: 0;
+     bottom: -50px;
+     animation: mymove 3s infinite linear alternate;
+}
+.digital .leftimgtwo {
+     font-size: 18px;
+     position: absolute;
+     left: 0;
+     top: 50px;
+     animation: mymove 4s infinite linear alternate;
+}
+.digital .imgpic {
+     font-size: 40px;
+     animation: mymove 5s infinite linear alternate;
+}
+@keyframes mymove {
+     0% {
+          transform: translateX(4px);
+     }
+     25% {
+          transform: translateX(8px);
+     }
+     50% {
+          transform: translateX(16px);
+     }
+     100% {
+          transform: translateX(4px);
+     }
+}
+
+.digital .text {
+     color: var(--color-primary);
+     margin-bottom: 30px;
+}
+.digital .texttop {
+     display: flex;
+     align-items: center;
+     color: var(--color-primary);
+     margin-bottom: 16px;
+}
+.digital .texttop h3 {
+     background-color: var(--color-secondary);
+     padding: 4px 10px;
+     border-radius: 30px;
+     font-size: 12px;
+     color: white;
+     font-weight: bold;
+}
+.digital .texttop h4 {
+     font-size: 10px;
+     font-weight: bold;
+     margin-left: 8px;
+}
+.digital .text h1 {
+     font-size: 36px;
+     font-weight: bold;
+     margin-bottom: 16px;
+}
+.digital .text p {
+     font-size: 16px;
+     margin-bottom: 16px;
+}
+.digital .text ul {
+     list-style: none;
+     margin: 8px 0;
+}
+.digital .text ul li {
+     margin-bottom: 8px;
+     align-items: center;
+}
+.digital .text ul li i {
+     margin: 0 6px;
+     font-size: 24px;
+     color: var(--color-secondary);
+}
+
+.select .card {
+     border: none;
+     background-color: rgba(255, 255, 255, 0);
+     padding: 20px;
+     text-align: center;
+     color: var(--color-primary);
+     margin-bottom: 30px;
+}
+.select .card img {
+     width: 30%;
+     margin: 0 auto;
+     margin-bottom: 15px;
+}
+.select .card:hover img {
+     animation: move 0.5s infinite alternate;
+}
+
+@keyframes move {
+     from {
+          transform: translateY(0);
+     }
+     to {
+          transform: translateY(-6px);
+     }
+}
+.select .card .text h4 {
+     margin-bottom: 15px;
+     font-size: 16px;
+     font-weight: bold;
+}
+.select .card .text p {
+     font-size: 16px;
+     margin-bottom: 15px;
+}
+
+.content {
+     margin-bottom: 30px;
+}
+.content .text {
+     text-align: center;
+     color: var(--color-primary);
+     margin-bottom: 15px;
+}
+.content .text h3 {
+     color: var(--color-secondary);
+     font-size: 16px;
+     margin-bottom: 8px;
+}
+.content .text h2 {
+     font-size: 36px;
+     font-weight: bold;
+     margin-bottom: 8px;
+}
+.content .text p {
+     font-size: 16px;
+     margin-bottom: 8px;
+}
+.content .card {
+     border: none;
+     background-color: rgba(255, 255, 255, 0);
+     padding: 4px;
+     text-align: center;
+     color: var(--color-primary);
+     margin-bottom: 30px;
+}
+.content .card img {
+     margin: 0 auto;
+     margin-bottom: 8px;
+}
+.content .card .text h4 {
+     font-size: 16px;
+     font-weight: bold;
+     margin-bottom: 8px;
+}
+.content .card .text p {
+     font-size: 16px;
+     margin-bottom: 8px;
+}
+
+.ability {
+     margin-bottom: 30px;
+}
+.ability .text {
+     width: 50%;
+     text-align: center;
+     margin: auto;
+     color: var(--color-primary);
+}
+.ability .text h3 {
+     color: var(--color-secondary);
+     font-size: 16px;
+     margin-bottom: 8px;
+}
+.ability .text h2 {
+     font-size: 36px;
+     font-weight: bold;
+     margin-bottom: 8px;
+}
+.ability .text p {
+     font-size: 16px;
+     margin-bottom: 8px;
+}
+.ability .video {
+     position: relative;
+}
+.ability .video img {
+     border-radius: 8px;
+     margin-bottom: 8px;
+}
+.ability .video .icon {
+     position: absolute;
+     z-index: 1;
+     top: 50%;
+     left: 50%;
+     transform: translateY(-50%);
+     color: #96ae00;
+     font-size: 50px;
+} 
+.ability .content .card {
+     color: var(--color-primary);
+     text-align: left;
+}
+.ability .content .card h3 {
+     color: var(--color-secondary);
+     font-size: 24px;
+     font-weight: bold;
+     margin-bottom: 8px;
+}
+.ability .content .card h2 {
+     font-size: 20px;
+     font-weight: bold;
+     margin-bottom: 8px;
+}
+.ability .content .card p {
+     font-size: 16px;
+     margin-bottom: 16px;
+     
+}
+
+.different{
+     margin-bottom: 30px;
+}
+.different .texttop {
+     width: 50%;
+     text-align: center;
+     margin: auto;
+     color: var(--color-primary);
+     margin-bottom: 30px;
+}
+.different .texttop h3 {
+     color: var(--color-secondary);
+     font-size: 16px;
+     margin-bottom: 8px;
+}
+.different .texttop h2 {
+     font-size: 36px;
+     font-weight: bold;
+     margin-bottom: 8px;
+}
+.different .texttop p {
+     font-size: 16px;
+     margin-bottom: 8px;
+}
+.different .card {
+     border: none;
+     border-radius: 16px;
+     background-color: white;
+     padding: 4px;
+     text-align: center;
+     color: var(--color-primary);
+     margin-bottom: 30px;
+}
+.different .card img {
+     width: 20%;
+     margin: 0 auto;
+     margin-bottom: 15px;
+}
+.different .card:hover img {
+     animation: move 0.5s infinite alternate;
+}
+
+@keyframes move {
+     from {
+          transform: translateY(0);
+     }
+     to {
+          transform: translateY(-6px);
+     }
+}
+.different .card .text h4 {
+     margin-bottom: 15px;
+     font-size: 16px;
+     font-weight: bold;
+}
+.different .card .text p {
+     font-size: 16px;
+     margin-bottom: 15px;
+}
+.different .card .text .icon {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+}
+.different .card .text .icon a {
+     color: var(--color-secondary);
+     font-weight: bold;
+     text-decoration: none;
+}
+.different .card .text .icon i {
+     color: var(--color-secondary);
+     font-size: 16px;
+     font-weight: bold;
+     z-index: 100;
+     margin-left: 8px;
+     opacity: 0;
+}
+.different .card:hover .text .icon i {
+     opacity: 1;
+     animation: moveicon 0.5s infinite alternate;
+}
+@keyframes moveicon {
+     form {
+          transform: translateX(0);
+     }
+     to {
+          transform: translateX(6px);
+     }
+}
+.different .content-bottom {
+     width: 50%;
+     text-align: center;
+     margin: auto;
+     color: var(--color-primary);
+     margin-bottom: 30px;
+ }
+.different .content-bottom span {
+     color: var(--color-secondary);
+     font-weight: bold;
+     font-size: 16px;
+     text-decoration: none;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     /* margin-bottom: 0px; */
+}
+.different .content-bottom span p {
+     font-size: 16px;
+}
+.different .content-bottom a {
+     color: var(--color-secondary);
+     text-decoration: none;
+     display: inline-flex;
+     align-items: center;
+     margin-left: 16px;
+}
+.different .content-bottom a i {
+     color: var(--color-secondary);
+     font-weight: bold;
+     font-size: 16px;
+     margin-left: 8px;
+     display: inline-block;
+     
+}
+.different .content-bottom:hover i {
+     animation: moveiconbottom 0.5s infinite alternate;
+}
+@keyframes moveiconbottom {
+     form {
+          transform: translateX(0);
+     }
+     to {
+          transform: translateX(6px);
+     }
+}
+
+.happy {
+     margin-bottom: 30px;
+}
+.happy .texttop {
+     color: var(--color-primary);
+     text-align: center;
+     margin-bottom: 30px;
+}
+.happy .texttop h3 {
+     color: var(--color-secondary);
+     font-size: 16px;
+     margin-bottom: 8px; 
+}
+.happy .texttop h2 {
+     font-size: 36px;
+     font-weight: bold;
+     margin-bottom: 8px;
+}
+.happy .texttop p {
+     font-size: 16px;
+     margin-bottom: 8px;
+}
+.happy .card {
+     color: var(--color-primary);
+     text-align: center;
+     margin: 15px;
+     padding: 30px;
+
+}
+.happy .card img {
+     width: 20%;
+     border-radius: 50%;
+     margin: 0 auto;
+     margin-bottom: 15px;
+}
+.happy .card p{
+     font-size: 16px;
+     margin-bottom: 8px;
+}
+.happy .card .star {
+     display: flex;
+     color: rgb(255, 204, 0);
+     justify-content: center;
+     margin-bottom: 8px;
+     font-size: 16px;
+}
+.happy .card h3 {
+     font-size: 16px;
+     font-weight: bold;
+     margin-bottom: 8px;
+}
+.happy .card h4 {
+     font-size: 16px;
+     margin-bottom: 8px;
+}
+
+@media(max-width:991px){
+     .select .card img {
+          width: 50px;
+     }
+ }
+ @media(max-width:767px){
+     .select .card {
+          margin-bottom: 0;
+          padding: 0;
+     }
+     .different .content-bottom {
+          font-size: 12px;
+          text-align: center;
+     }
+   
+     
+ }
+ @media(max-width:575px){
+
+ }
+ @media(max-width:379px){
+  
+ }
